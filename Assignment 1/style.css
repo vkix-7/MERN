@@ -1,0 +1,32 @@
+.parent-div {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #3498DB; /* Blue */
+}
+.corner-div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.left {
+    top: 0;
+    left: 0;
+    background-color: #FF5733; /* Orange */
+}
+.right {
+    top: 0;
+    right: 0;
+    color: #fcfeff;
+    background-color: #000000; /* Blue */
+}
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    background-color: #b608d8; /* Green */
+}
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    background-color: #aeeb12; /* Red */
+}
