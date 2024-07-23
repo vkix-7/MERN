@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #155c93, #128583);
+}
+.registration{
+    border: 1px solid  black;
+    background-color: rgb(217, 198, 213);
+    padding: 6vh;
+    border-radius: 2vh;
+  
+}
+form{
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 1.5vh;
+    margin-bottom: 2vh;
+    padding-left: 1vh;
+    height: 5vh;
+}
+
+ #reset{ font-size: large;
+    width: 13.5vw;
+    height: 5vh;
+    color: rgb(73, 13, 13);
+    background-color: rgb(128, 212, 179);
+    border: 1px solid black;
+    border-radius: 1.5vh;
+}
+#submit{
+    font-size: large;
+    width: 13.5vw;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(141, 164, 233);
+    border: 1px solid black;
+    border-radius: 1.5vh;
+   
+}
+
+#submit:hover {
+    background: rgb(52, 71, 191);
+    border: rgb(5, 252, 252) 0.1rem solid;
+  }
+  #reset:hover {
+    background: rgb(52, 71, 191);
+    border: rgb(5, 252, 252) 0.1rem solid;
+  }
+
+.button {
+    display: flex;
+}
