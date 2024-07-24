@@ -16,8 +16,12 @@ body{
 form{
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    align-items: center;
+    
+}
 input{
-    width: 20vw;
+    width: 25vw;
     border: 1px solid black;
     border-radius: 1.5vh;
     margin-bottom: 2vh;
